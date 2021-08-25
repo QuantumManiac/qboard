@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mx-led)(type Legacy)(uri X:/Work/Development/qboard/pcb/lib/mx-led.lib)(options "")(descr ""))
+)
