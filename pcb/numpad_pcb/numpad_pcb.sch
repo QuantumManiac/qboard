@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "QBoard - Numpad"
+Date "2021-08-26"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""

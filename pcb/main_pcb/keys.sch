@@ -4,9 +4,9 @@ EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
+Title "QBoard - Main Keys"
+Date "2021-08-26"
+Rev "0"
 Comp ""
 Comment1 ""
 Comment2 ""
