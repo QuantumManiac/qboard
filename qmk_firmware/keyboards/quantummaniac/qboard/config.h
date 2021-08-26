@@ -20,15 +20,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x0000
+#define VENDOR_ID    0x1B64
+#define PRODUCT_ID   0x9BB3
 #define DEVICE_VER   0x0001
-#define MANUFACTURER quantummaniac
-#define PRODUCT      qboard
+#define MANUFACTURER QuantumManiac
+#define PRODUCT      QBoard
 
 /* key matrix size */
 #define MATRIX_ROWS 2
-#define MATRIX_COLS 3
+#define MATRIX_COLS 2
 
 /*
  * Keyboard Matrix Assignments
@@ -40,8 +40,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
  */
-#define MATRIX_ROW_PINS { D0, D5 }
-#define MATRIX_COL_PINS { F1, F0, B0 }
+#define MATRIX_ROW_PINS { D5, D6 }
+#define MATRIX_COL_PINS { A0, A1 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
@@ -50,13 +50,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
  */
-#define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
+// #define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
 
 //#define LED_NUM_LOCK_PIN B0
-//#define LED_CAPS_LOCK_PIN B1
+#define LED_CAPS_LOCK_PIN A2
 //#define LED_SCROLL_LOCK_PIN B2
 //#define LED_COMPOSE_PIN B3
 //#define LED_KANA_PIN B4
+#define LED_PIN_ON_STATE 1
 
 //#define BACKLIGHT_PIN B7
 //#define BACKLIGHT_LEVELS 3
