@@ -1,5 +1,5 @@
 /*
-Copyright 2021 quantummaniac
+Copyright 2021 QuantumManiac
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -27,8 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT      QBoard
 
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 2
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 20
 
 /*
  * Keyboard Matrix Assignments
@@ -39,9 +39,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
+ *                        00  01  02  03  04  05  06  07  08  09  10  11  12  13  14  15  16  17  18  19
  */
-#define MATRIX_ROW_PINS { D5, D6 }
-#define MATRIX_COL_PINS { A0, A1 }
+#define MATRIX_ROW_PINS { A0, A1, A2, A3, A4, A5 }
+#define MATRIX_COL_PINS { B0, B1, B2, B3, B4, B5, B6, B7, D0, D1, D5, D6, C7, C6, C5, C4, C3, C2, C1, C0 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL */
@@ -52,15 +53,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 // #define SOFT_SERIAL_PIN D0  // or D1, D2, D3, E6
 
-//#define LED_NUM_LOCK_PIN B0
-#define LED_CAPS_LOCK_PIN A2
+#define LED_NUM_LOCK_PIN A7
+#define LED_CAPS_LOCK_PIN A6
 //#define LED_SCROLL_LOCK_PIN B2
 //#define LED_COMPOSE_PIN B3
 //#define LED_KANA_PIN B4
 #define LED_PIN_ON_STATE 1
 
-//#define BACKLIGHT_PIN B7
-//#define BACKLIGHT_LEVELS 3
+#define BACKLIGHT_PIN D4
+#define BACKLIGHT_LEVELS 3
 //#define BACKLIGHT_BREATHING
 
 //#define RGB_DI_PIN E2

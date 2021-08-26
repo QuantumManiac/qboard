@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [quantummaniac](https://github.com/yourusername)
+* Keyboard Maintainer: [QuantumManiac](https://github.com/QuantumManiac)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
