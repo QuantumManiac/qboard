@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -5556,7 +5556,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3ECD)
-    (at 176.160199 5.595)
+    (at 500.25 284.9)
     (path /6131464B/6200BC0D)
     (fp_text reference MX101 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5590,7 +5590,7 @@
   )
 
   (module MX_Only:MXOnly-2U-ReversedStabilizers (layer F.Cu) (tedit 5AC9A2DA) (tstamp 612A3EB6)
-    (at 90.605199 -33.516101)
+    (at 471.7 284.9)
     (path /6131464B/61F7A65E)
     (fp_text reference MX100 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5628,7 +5628,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E9B)
-    (at 366.500199 -55.645)
+    (at 438.2 284.9)
     (path /6131464B/61411D22)
     (fp_text reference MX99 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5662,7 +5662,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E84)
-    (at 222.480199 85.755)
+    (at 419.15 284.9)
     (path /6131464B/61411BB8)
     (fp_text reference MX98 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5695,8 +5695,8 @@
       (net 116 "Net-(D104-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E6D)
-    (at 242.680199 65.555)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A8536)
+    (at 400.05 284.9)
     (path /6131464B/61411B0E)
     (fp_text reference MX97 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5730,7 +5730,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E56)
-    (at 321.170199 -15.245)
+    (at 381.05 284.9)
     (path /6131464B/61411A4C)
     (fp_text reference MX96 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5764,7 +5764,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E3F)
-    (at 355.820199 -75.845)
+    (at 361.95 284.9)
     (path /6131464B/614119A2)
     (fp_text reference MX95 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5798,7 +5798,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3E28)
-    (at 300.970199 4.955)
+    (at 342.9 284.9)
     (path /6131464B/614118EC)
     (fp_text reference MX94 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5832,7 +5832,7 @@
   )
 
   (module MX_Only:MXOnly-6.25U-ReversedStabilizers (layer F.Cu) (tedit 5AC9A20E) (tstamp 612A3E11)
-    (at 131.086449 -75.196101)
+    (at 273.85 284.9)
     (path /6131464B/613936D0)
     (fp_text reference MX93 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5870,7 +5870,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U (layer F.Cu) (tedit 5AC994B3) (tstamp 612A3DF6)
-    (at 113.181449 27.715)
+    (at 202.45 284.9)
     (path /6131464B/61362158)
     (fp_text reference MX92 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5904,7 +5904,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U (layer F.Cu) (tedit 5AC994B3) (tstamp 612A3DDF)
-    (at 157.191449 -15.755)
+    (at 178.65 284.9)
     (path /6131464B/61345528)
     (fp_text reference MX91 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5938,7 +5938,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U (layer F.Cu) (tedit 5AC994B3) (tstamp 612A3DC8)
-    (at 83.461449 47.915)
+    (at 154.85 284.9)
     (path /6131464B/6132D350)
     (fp_text reference MX90 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5972,7 +5972,7 @@
   )
 
   (module MX_Only:MXOnly-2U-ReversedVerticalStabilizers (layer F.Cu) (tedit 5D9ABB1F) (tstamp 612A3DB1)
-    (at 125.739098 -45.48)
+    (at 519.3 275.4)
     (path /6131464B/61D6A206)
     (fp_text reference MX89 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6012,8 +6012,8 @@
     (pad "" np_thru_hole circle (at 6.985 11.938 90) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D95)
-    (at 179.770199 -14.605)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A7DDF)
+    (at 500.25 265.85)
     (path /6131464B/61CE3FCB)
     (fp_text reference MX88 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6047,7 +6047,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D7E)
-    (at 199.970199 -34.805)
+    (at 481.25 265.85)
     (path /6131464B/61C5FF49)
     (fp_text reference MX87 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6081,7 +6081,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D67)
-    (at 81.080199 88.315)
+    (at 462.2 265.85)
     (path /6131464B/61BDF13B)
     (fp_text reference MX86 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6114,8 +6114,8 @@
       (net 103 "Net-(D92-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D50)
-    (at 135.760199 44.845)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A9C6E)
+    (at 438.2 265.85)
     (path /6131464B/61411D04)
     (fp_text reference MX85 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6149,7 +6149,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D39)
-    (at 155.960199 24.645)
+    (at 419.15 265.85)
     (path /6131464B/61411B9C)
     (fp_text reference MX84 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6182,8 +6182,8 @@
       (net 101 "Net-(D90-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1.75U (layer F.Cu) (tedit 5AC99953) (tstamp 612A3D22)
-    (at 127.473949 -15.755)
+  (module MX_Only:MXOnly-1.75U (layer F.Cu) (tedit 5AC99953) (tstamp 612A97E9)
+    (at 392.95 265.85)
     (path /6131464B/61411AF2)
     (fp_text reference MX83 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6217,7 +6217,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3D0B)
-    (at 262.880199 65.555)
+    (at 366.8 265.85)
     (path /6131464B/61411A30)
     (fp_text reference MX82 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6250,8 +6250,8 @@
       (net 99 "Net-(D88-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3CF4)
-    (at 335.620199 -75.845)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A8254)
+    (at 347.75 265.85)
     (path /6131464B/61411986)
     (fp_text reference MX81 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6285,7 +6285,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3CDD)
-    (at 287.970199 -35.445)
+    (at 328.7 265.85)
     (path /6131464B/614118D0)
     (fp_text reference MX80 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6319,7 +6319,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3CC6)
-    (at 305.900199 -55.645)
+    (at 309.65 265.85)
     (path /6131464B/61411822)
     (fp_text reference MX79 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6353,7 +6353,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3CAF)
-    (at 341.370199 4.955)
+    (at 290.6 265.85)
     (path /6131464B/61393766)
     (fp_text reference MX78 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6387,7 +6387,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C98)
-    (at 277.160199 25.155)
+    (at 271.55 265.85)
     (path /6131464B/613936B4)
     (fp_text reference MX77 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6421,7 +6421,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C81)
-    (at 297.360199 45.355)
+    (at 252.5 265.85)
     (path /6131464B/613935FE)
     (fp_text reference MX76 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6455,7 +6455,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C6A)
-    (at 317.560199 25.155)
+    (at 233.45 265.85)
     (path /6131464B/61393550)
     (fp_text reference MX75 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6488,8 +6488,8 @@
       (net 92 "Net-(D81-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C53)
-    (at 368.770199 -35.445)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A947D)
+    (at 214.4 265.85)
     (path /6131464B/613621F0)
     (fp_text reference MX74 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6523,7 +6523,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C3C)
-    (at 386.700199 -55.645)
+    (at 195.3 265.85)
     (path /6131464B/6136213A)
     (fp_text reference MX73 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6557,7 +6557,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U (layer F.Cu) (tedit 5AC9A18D) (tstamp 612A3C25)
-    (at 213.196449 -75.845)
+    (at 164.4 265.85)
     (path /6131464B/61329E25)
     (fp_text reference MX72 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6595,7 +6595,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3C0A)
-    (at 242.680199 85.755)
+    (at 500.25 246.8)
     (path /6131464B/61B606E7)
     (fp_text reference MX71 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6629,7 +6629,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3BF3)
-    (at 341.370199 -15.245)
+    (at 481.2 246.8)
     (path /6131464B/61AE42D7)
     (fp_text reference MX70 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6663,7 +6663,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3BDC)
-    (at 321.170199 4.955)
+    (at 462.15 246.8)
     (path /6131464B/61A6A7A1)
     (fp_text reference MX69 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6697,7 +6697,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3BC5)
-    (at 297.360199 25.155)
+    (at 438.2 246.8)
     (path /6131464B/61411CE6)
     (fp_text reference MX68 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6730,8 +6730,8 @@
       (net 84 "Net-(D74-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-2.25U-FLIPPED (layer F.Cu) (tedit 5AE7BF32) (tstamp 612A3BAE)
-    (at 92.986449 -55.005)
+  (module MX_Only:MXOnly-2.25U-FLIPPED (layer F.Cu) (tedit 5AE7BF32) (tstamp 612A6AED)
+    (at 407.3 246.8)
     (path /6131464B/61411B80)
     (fp_text reference MX67 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6769,7 +6769,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B93)
-    (at 277.160199 45.355)
+    (at 376.35 246.8)
     (path /6131464B/61411AD6)
     (fp_text reference MX66 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6803,7 +6803,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B7C)
-    (at 396.220199 -75.845)
+    (at 357.3 246.8)
     (path /6131464B/61411A14)
     (fp_text reference MX65 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6837,7 +6837,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B65)
-    (at 326.100199 -55.645)
+    (at 338.25 246.8)
     (path /6131464B/6141196A)
     (fp_text reference MX64 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6871,7 +6871,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B4E)
-    (at 348.570199 -35.445)
+    (at 319.2 246.8)
     (path /6131464B/614118B4)
     (fp_text reference MX63 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6905,7 +6905,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B37)
-    (at 121.480199 68.115)
+    (at 300.15 246.8)
     (path /6131464B/61411804)
     (fp_text reference MX62 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6939,7 +6939,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B20)
-    (at 176.160199 45.995)
+    (at 281.1 246.8)
     (path /6131464B/61393748)
     (fp_text reference MX61 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6973,7 +6973,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3B09)
-    (at 141.680199 85.245)
+    (at 262.05 246.8)
     (path /6131464B/61393698)
     (fp_text reference MX60 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7007,7 +7007,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3AF2)
-    (at 285.700199 -55.645)
+    (at 243 246.8)
     (path /6131464B/613935E2)
     (fp_text reference MX59 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7041,7 +7041,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3ADB)
-    (at 267.770199 -35.445)
+    (at 223.95 246.8)
     (path /6131464B/61393532)
     (fp_text reference MX58 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7075,7 +7075,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3AC4)
-    (at 315.420199 -75.845)
+    (at 204.9 246.8)
     (path /6131464B/613621D2)
     (fp_text reference MX57 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7109,7 +7109,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3AAD)
-    (at 240.370199 4.955)
+    (at 185.85 246.8)
     (path /6131464B/6136211C)
     (fp_text reference MX56 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7143,7 +7143,7 @@
   )
 
   (module MX_Only:MXOnly-1.75U (layer F.Cu) (tedit 5AC99953) (tstamp 612A3A96)
-    (at 88.223949 7.515)
+    (at 159.65 246.8)
     (path /6131464B/61327CDA)
     (fp_text reference MX55 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7177,7 +7177,7 @@
   )
 
   (module MX_Only:MXOnly-2U-ReversedVerticalStabilizers (layer F.Cu) (tedit 5D9ABB1F) (tstamp 612A3A7F)
-    (at 146.579098 -45.48)
+    (at 519.3 237.3)
     (path /6131464B/619F18EF)
     (fp_text reference MX54 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7217,8 +7217,8 @@
     (pad "" np_thru_hole circle (at 6.985 11.938 90) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3A63)
-    (at 220.170199 4.955)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A9F77)
+    (at 500.25 227.75)
     (path /6131464B/6197CB94)
     (fp_text reference MX53 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7252,7 +7252,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3A4C)
-    (at 260.570199 -15.245)
+    (at 481.2 227.75)
     (path /6131464B/617BFAEB)
     (fp_text reference MX52 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7286,7 +7286,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3A35)
-    (at 196.360199 25.795)
+    (at 462.15 227.75)
     (path /6131464B/616EBD4B)
     (fp_text reference MX51 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7320,7 +7320,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3A1E)
-    (at 120.330199 4.445)
+    (at 438.2 227.75)
     (path /6131464B/61411CC8)
     (fp_text reference MX50 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7354,7 +7354,7 @@
   )
 
   (module MX_Only:MXOnly-1.5U (layer F.Cu) (tedit 60EDD42D) (tstamp 612A3A07)
-    (at 250.062699 -75.845)
+    (at 414.4 227.75)
     (path /6131464B/61411C1A)
     (fp_text reference MX49 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7388,7 +7388,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A39F0)
-    (at 245.300199 -55.645)
+    (at 390.55 227.75)
     (path /6131464B/61411B64)
     (fp_text reference MX48 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7422,7 +7422,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A39D9)
-    (at 186.970199 -55.005)
+    (at 371.5 227.75)
     (path /6131464B/61411ABA)
     (fp_text reference MX47 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7456,7 +7456,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A39C2)
-    (at 140.530199 4.445)
+    (at 352.45 227.75)
     (path /6131464B/614119F8)
     (fp_text reference MX46 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7490,7 +7490,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A39AB)
-    (at 179.770199 -34.805)
+    (at 333.45 227.75)
     (path /6131464B/6141194E)
     (fp_text reference MX45 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7524,7 +7524,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3994)
-    (at 155.960199 44.845)
+    (at 314.4 227.75)
     (path /6131464B/61411898)
     (fp_text reference MX44 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7558,7 +7558,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A397D)
-    (at 199.970199 -14.605)
+    (at 295.35 227.75)
     (path /6131464B/614117E6)
     (fp_text reference MX43 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7592,7 +7592,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3966)
-    (at 227.370199 -35.445)
+    (at 276.3 227.75)
     (path /6131464B/6139372A)
     (fp_text reference MX42 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7626,7 +7626,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A394F)
-    (at 101.280199 68.115)
+    (at 257.25 227.75)
     (path /6131464B/6139367C)
     (fp_text reference MX41 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7660,7 +7660,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3938)
-    (at 275.020199 -75.845)
+    (at 238.2 227.75)
     (path /6131464B/613935C6)
     (fp_text reference MX40 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7694,7 +7694,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3921)
-    (at 182.080199 66.195)
+    (at 219.15 227.75)
     (path /6131464B/61393514)
     (fp_text reference MX39 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7728,7 +7728,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A390A)
-    (at 161.880199 66.195)
+    (at 200.1 227.75)
     (path /6131464B/613621B4)
     (fp_text reference MX38 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7761,8 +7761,8 @@
       (net 53 "Net-(D44-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A38F3)
-    (at 176.160199 25.795)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612AA98B)
+    (at 181.05 227.75)
     (path /6131464B/613620FE)
     (fp_text reference MX37 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7796,7 +7796,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A38DC)
-    (at 101.280199 88.315)
+    (at 171.55 208.7)
     (path /6131464B/613454A8)
     (fp_text reference MX36 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7830,7 +7830,7 @@
   )
 
   (module MX_Only:MXOnly-1.5U (layer F.Cu) (tedit 60EDD42D) (tstamp 612A38C5)
-    (at 85.842699 27.715)
+    (at 157.25 227.75)
     (path /6131464B/61324FAA)
     (fp_text reference MX35 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7863,8 +7863,8 @@
       (net 49 "Net-(D41-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A38AE)
-    (at 166.770199 -55.005)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612AA53D)
+    (at 519.3 208.7)
     (path /6131464B/6190AA48)
     (fp_text reference MX34 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7898,7 +7898,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3897)
-    (at 265.500199 -55.645)
+    (at 500.25 208.7)
     (path /6131464B/6189B3F9)
     (fp_text reference MX33 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7932,7 +7932,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3880)
-    (at 141.680199 65.045)
+    (at 481.2 208.7)
     (path /6131464B/6182AF25)
     (fp_text reference MX32 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7966,7 +7966,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3869)
-    (at 121.480199 88.315)
+    (at 462.15 208.7)
     (path /6131464B/61686B01)
     (fp_text reference MX31 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8000,7 +8000,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3852)
-    (at 196.360199 5.595)
+    (at 438.2 208.7)
     (path /6131464B/61411CAA)
     (fp_text reference MX30 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8033,8 +8033,8 @@
       (net 44 "Net-(D36-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-2U (layer F.Cu) (tedit 5AC99989) (tstamp 612A383B)
-    (at 90.605199 -13.325)
+  (module MX_Only:MXOnly-2U (layer F.Cu) (tedit 5AC99989) (tstamp 612AB7C4)
+    (at 409.65 208.7)
     (path /6131464B/61411B48)
     (fp_text reference MX29 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8072,7 +8072,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3820)
-    (at 220.170199 -15.245)
+    (at 381.1 208.7)
     (path /6131464B/61411A9E)
     (fp_text reference MX28 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8106,7 +8106,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3809)
-    (at 247.570199 -35.445)
+    (at 362.05 208.7)
     (path /6131464B/614119DC)
     (fp_text reference MX27 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8140,7 +8140,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A37F2)
-    (at 295.220199 -75.845)
+    (at 343 208.7)
     (path /6131464B/61411932)
     (fp_text reference MX26 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8174,7 +8174,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A37DB)
-    (at 240.370199 -15.245)
+    (at 323.95 208.7)
     (path /6131464B/6141187C)
     (fp_text reference MX25 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8208,7 +8208,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A37C4)
-    (at 216.560199 25.155)
+    (at 304.9 208.7)
     (path /6131464B/614117C8)
     (fp_text reference MX24 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8242,7 +8242,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A37AD)
-    (at 260.570199 4.955)
+    (at 285.85 208.7)
     (path /6131464B/6139370C)
     (fp_text reference MX23 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8276,7 +8276,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3796)
-    (at 280.770199 -15.245)
+    (at 266.8 208.7)
     (path /6131464B/61393660)
     (fp_text reference MX22 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8310,7 +8310,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A377F)
-    (at 182.080199 86.395)
+    (at 247.75 208.7)
     (path /6131464B/613935AA)
     (fp_text reference MX21 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8344,7 +8344,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3768)
-    (at 202.280199 66.195)
+    (at 228.7 208.7)
     (path /6131464B/613934F6)
     (fp_text reference MX20 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8378,7 +8378,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3751)
-    (at 308.170199 -35.445)
+    (at 209.65 208.7)
     (path /6131464B/61362196)
     (fp_text reference MX19 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8412,7 +8412,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A373A)
-    (at 161.880199 86.395)
+    (at 190.6 208.7)
     (path /6131464B/613620E0)
     (fp_text reference MX18 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8445,8 +8445,8 @@
       (net 32 "Net-(D24-Pad2)"))
   )
 
-  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3723)
-    (at 236.760199 45.355)
+  (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612AB22E)
+    (at 171.55 189.65)
     (path /6131464B/61345488)
     (fp_text reference MX17 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8480,7 +8480,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A370C)
-    (at 256.960199 25.155)
+    (at 152.5 208.7)
     (path /6131464B/61322AA4)
     (fp_text reference MX16 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8514,7 +8514,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A36F5)
-    (at 280.770199 4.955)
+    (at 438.2 189.65)
     (path /6131464B/61411C8C)
     (fp_text reference MX15 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8548,7 +8548,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A36DE)
-    (at 216.560199 45.355)
+    (at 419.15 189.65)
     (path /6131464B/61411BE2)
     (fp_text reference MX14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8582,7 +8582,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A36C7)
-    (at 300.970199 -15.245)
+    (at 400.1 189.65)
     (path /6131464B/61411B2C)
     (fp_text reference MX13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8616,7 +8616,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A36B0)
-    (at 202.280199 86.395)
+    (at 381.1 189.65)
     (path /6131464B/61411A82)
     (fp_text reference MX12 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8650,7 +8650,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3699)
-    (at 222.480199 65.555)
+    (at 362.05 189.65)
     (path /6131464B/614119C0)
     (fp_text reference MX11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8684,7 +8684,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3682)
-    (at 346.300199 -55.645)
+    (at 343 189.65)
     (path /6131464B/61411916)
     (fp_text reference MX10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8718,7 +8718,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A366B)
-    (at 328.370199 -35.445)
+    (at 323.95 189.65)
     (path /6131464B/61411860)
     (fp_text reference MX9 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8752,7 +8752,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3654)
-    (at 376.020199 -75.845)
+    (at 304.9 189.65)
     (path /6131464B/614117AA)
     (fp_text reference MX8 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8786,7 +8786,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A363D)
-    (at 256.960199 45.355)
+    (at 285.85 189.65)
     (path /6131464B/613936EE)
     (fp_text reference MX7 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8820,7 +8820,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A3626)
-    (at 196.360199 45.995)
+    (at 266.8 189.65)
     (path /6131464B/61393644)
     (fp_text reference MX6 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8854,7 +8854,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A360F)
-    (at 236.760199 25.155)
+    (at 247.75 189.65)
     (path /6131464B/6139358E)
     (fp_text reference MX5 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8888,7 +8888,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A35F8)
-    (at 207.170199 -55.005)
+    (at 228.7 189.65)
     (path /6131464B/613934D8)
     (fp_text reference MX4 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8922,7 +8922,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A35E1)
-    (at 106.040199 47.915)
+    (at 209.65 189.65)
     (path /6131464B/61362178)
     (fp_text reference MX3 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8956,7 +8956,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A35CA)
-    (at 81.080199 68.115)
+    (at 190.6 189.65)
     (path /6131464B/613620C2)
     (fp_text reference MX2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8990,7 +8990,7 @@
   )
 
   (module MX_Only:MXOnly-1U (layer F.Cu) (tedit 5AC9901D) (tstamp 612A35B3)
-    (at 135.760199 24.645)
+    (at 152.5 189.65)
     (path /6131464B/61314ECC)
     (fp_text reference MX1 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
