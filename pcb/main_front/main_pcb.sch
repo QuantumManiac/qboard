@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "QBoard - Front"
+Title "QBoard - Main"
 Date "2021-08-26"
 Rev "0"
 Comp ""
@@ -197,12 +197,12 @@ Connection ~ 7675 5125
 $Comp
 L Device:LED D5
 U 1 1 6129195C
-P 7975 4350
-F 0 "D5" H 7968 4095 50  0000 C CNN
-F 1 "POWER" H 7968 4186 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm_Clear" H 7975 4350 50  0001 C CNN
-F 3 "~" H 7975 4350 50  0001 C CNN
-	1    7975 4350
+P 7975 3825
+F 0 "D5" H 7968 3570 50  0000 C CNN
+F 1 "POWER" H 7968 3661 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm_Clear" H 7975 3825 50  0001 C CNN
+F 3 "~" H 7975 3825 50  0001 C CNN
+	1    7975 3825
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -219,12 +219,12 @@ $EndComp
 $Comp
 L Device:R R10
 U 1 1 612935EF
-P 8275 4350
-F 0 "R10" V 8175 4350 50  0000 C CNN
-F 1 "1.5k" V 8275 4350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8205 4350 50  0001 C CNN
-F 3 "~" H 8275 4350 50  0001 C CNN
-	1    8275 4350
+P 8275 3825
+F 0 "R10" V 8175 3825 50  0000 C CNN
+F 1 "1.5k" V 8275 3825 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8205 3825 50  0001 C CNN
+F 3 "~" H 8275 3825 50  0001 C CNN
+	1    8275 3825
 	0    1    1    0   
 $EndComp
 $Comp
@@ -252,31 +252,31 @@ $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 612967E1
-P 8475 4350
-F 0 "#PWR014" H 8475 4100 50  0001 C CNN
-F 1 "GND" H 8480 4177 50  0000 C CNN
-F 2 "" H 8475 4350 50  0001 C CNN
-F 3 "" H 8475 4350 50  0001 C CNN
-	1    8475 4350
+P 8475 3825
+F 0 "#PWR014" H 8475 3575 50  0001 C CNN
+F 1 "GND" H 8480 3652 50  0000 C CNN
+F 2 "" H 8475 3825 50  0001 C CNN
+F 3 "" H 8475 3825 50  0001 C CNN
+	1    8475 3825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8425 3400 8475 3400
 Wire Wire Line
-	8425 4350 8475 4350
+	8425 3825 8475 3825
 $Comp
 L power:+5V #PWR013
 U 1 1 612977F5
-P 7725 4350
-F 0 "#PWR013" H 7725 4200 50  0001 C CNN
-F 1 "+5V" H 7740 4523 50  0000 C CNN
-F 2 "" H 7725 4350 50  0001 C CNN
-F 3 "" H 7725 4350 50  0001 C CNN
-	1    7725 4350
+P 7725 3825
+F 0 "#PWR013" H 7725 3675 50  0001 C CNN
+F 1 "+5V" H 7740 3998 50  0000 C CNN
+F 2 "" H 7725 3825 50  0001 C CNN
+F 3 "" H 7725 3825 50  0001 C CNN
+	1    7725 3825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7725 4350 7825 4350
+	7725 3825 7825 3825
 $Comp
 L Connector:AVR-ISP-6 J1
 U 1 1 61299700
@@ -605,17 +605,17 @@ F 3 "" H 9475 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9475 4700 9600 4700
-Text GLabel 9600 4900 0    50   Input ~ 0
-row0
-Text GLabel 9600 5000 0    50   Input ~ 0
-row1
 Text GLabel 9600 5100 0    50   Input ~ 0
-row2
+row0
 Text GLabel 9600 5200 0    50   Input ~ 0
-row3
+row1
 Text GLabel 9600 5300 0    50   Input ~ 0
-row4
+row2
 Text GLabel 9600 5400 0    50   Input ~ 0
+row3
+Text GLabel 9600 5500 0    50   Input ~ 0
+row4
+Text GLabel 9600 5600 0    50   Input ~ 0
 row5
 $Sheet
 S 9600 4625 650  1475
@@ -624,73 +624,61 @@ F0 "keys" 50
 F1 "keys.sch" 50
 F2 "5V" I L 9600 4700 50 
 F3 "LEDGND" I L 9600 4800 50 
-F4 "col0" I L 9600 5500 50 
-F5 "col1" I L 9600 5600 50 
-F6 "col2" I L 9600 5700 50 
-F7 "col3" I L 9600 5800 50 
-F8 "col4" I L 9600 5900 50 
-F9 "col5" I L 9600 6000 50 
-F10 "row0" I L 9600 4900 50 
-F11 "row1" I L 9600 5000 50 
-F12 "row2" I L 9600 5100 50 
-F13 "row3" I L 9600 5200 50 
-F14 "row4" I L 9600 5300 50 
-F15 "row5" I L 9600 5400 50 
-F16 "col6" I R 10250 4700 50 
-F17 "col7" I R 10250 4800 50 
-F18 "col8" I R 10250 4900 50 
-F19 "col9" I R 10250 5000 50 
-F20 "col10" I R 10250 5100 50 
-F21 "col11" I R 10250 5200 50 
-F22 "col12" I R 10250 5300 50 
-F23 "col13" I R 10250 5400 50 
-F24 "col14" I R 10250 5500 50 
-F25 "col15" I R 10250 5600 50 
-F26 "col16" I R 10250 5700 50 
-F27 "col17" I R 10250 5800 50 
-F28 "col18" I R 10250 5900 50 
-F29 "col19" I R 10250 6000 50 
+F4 "col0" I L 9600 5700 50 
+F5 "col1" I L 9600 5800 50 
+F6 "col2" I L 9600 5900 50 
+F7 "col3" I L 9600 6000 50 
+F8 "col4" I R 10250 4900 50 
+F9 "col5" I R 10250 5000 50 
+F10 "row0" I L 9600 5100 50 
+F11 "row1" I L 9600 5200 50 
+F12 "row2" I L 9600 5300 50 
+F13 "row3" I L 9600 5400 50 
+F14 "row4" I L 9600 5500 50 
+F15 "row5" I L 9600 5600 50 
+F16 "col6" I R 10250 5100 50 
+F17 "col7" I R 10250 5200 50 
+F18 "col8" I R 10250 5300 50 
+F19 "col9" I R 10250 5400 50 
+F20 "col10" I R 10250 5500 50 
+F21 "col11" I R 10250 5600 50 
+F22 "col12" I R 10250 5700 50 
+F23 "col13" I R 10250 5800 50 
+F24 "col14" I R 10250 5900 50 
+F25 "col15" I R 10250 6000 50 
 $EndSheet
-Text GLabel 9600 5500 0    50   Input ~ 0
-col0
-Text GLabel 9600 5600 0    50   Input ~ 0
-col1
 Text GLabel 9600 5700 0    50   Input ~ 0
-col2
+col0
 Text GLabel 9600 5800 0    50   Input ~ 0
-col3
+col1
 Text GLabel 9600 5900 0    50   Input ~ 0
-col4
+col2
 Text GLabel 9600 6000 0    50   Input ~ 0
-col5
-Text GLabel 10250 4700 2    50   Input ~ 0
-col6
-Text GLabel 10250 4800 2    50   Input ~ 0
-col7
+col3
 Text GLabel 10250 4900 2    50   Input ~ 0
-col8
+col4
 Text GLabel 10250 5000 2    50   Input ~ 0
-col9
+col5
 Text GLabel 10250 5100 2    50   Input ~ 0
-col10
+col6
 Text GLabel 10250 5200 2    50   Input ~ 0
-col11
+col7
 Text GLabel 10250 5300 2    50   Input ~ 0
-col12
+col8
 Text GLabel 10250 5400 2    50   Input ~ 0
-col13
+col9
 Text GLabel 10250 5500 2    50   Input ~ 0
-col14
+col10
 Text GLabel 10250 5600 2    50   Input ~ 0
-col15
+col11
 Text GLabel 10250 5700 2    50   Input ~ 0
-col16
+col12
 Text GLabel 10250 5800 2    50   Input ~ 0
-col17
+col13
 Text GLabel 10250 5900 2    50   Input ~ 0
-col18
+col14
 Text GLabel 10250 6000 2    50   Input ~ 0
-col19
+col15
 Text GLabel 6025 3175 2    50   Input ~ 0
 col0
 Text GLabel 6025 3275 2    50   Input ~ 0
@@ -836,42 +824,7 @@ Text GLabel 7675 5650 0    50   Input ~ 0
 BOOT
 Text GLabel 6025 5675 2    50   Input ~ 0
 BOOT
-$Comp
-L Device:LED D2
-U 1 1 6132A809
-P 7975 3875
-F 0 "D2" H 7968 3620 50  0000 C CNN
-F 1 "NUMLOCK" H 7968 3711 50  0000 C CNN
-F 2 "LED_THT:LED_D3.0mm_Clear" H 7975 3875 50  0001 C CNN
-F 3 "~" H 7975 3875 50  0001 C CNN
-	1    7975 3875
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 6132A80F
-P 8275 3875
-F 0 "R9" V 8175 3875 50  0000 C CNN
-F 1 "1.5k" V 8275 3875 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8205 3875 50  0001 C CNN
-F 3 "~" H 8275 3875 50  0001 C CNN
-	1    8275 3875
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 6132A815
-P 8475 3875
-F 0 "#PWR010" H 8475 3625 50  0001 C CNN
-F 1 "GND" H 8480 3702 50  0000 C CNN
-F 2 "" H 8475 3875 50  0001 C CNN
-F 3 "" H 8475 3875 50  0001 C CNN
-	1    8475 3875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8425 3875 8475 3875
-Text GLabel 7825 3875 0    50   Input ~ 0
+Text GLabel 9900 1275 0    50   Input ~ 0
 NUMLOCK
 $Comp
 L Connector:USB_C_Receptacle_USB2.0 J2
@@ -887,4 +840,64 @@ $EndComp
 Connection ~ 1775 4600
 NoConn ~ 2375 4200
 NoConn ~ 2375 4300
+$Comp
+L Connector:Conn_01x16_Male J3
+U 1 1 61297A0F
+P 10100 1575
+F 0 "J3" H 10072 1457 50  0000 R CNN
+F 1 "Conn_01x16_Male" H 10072 1548 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal" H 10100 1575 50  0001 C CNN
+F 3 "~" H 10100 1575 50  0001 C CNN
+	1    10100 1575
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR021
+U 1 1 614EDA42
+P 9800 775
+F 0 "#PWR021" H 9800 625 50  0001 C CNN
+F 1 "+5V" H 9650 825 50  0000 C CNN
+F 2 "" H 9800 775 50  0001 C CNN
+F 3 "" H 9800 775 50  0001 C CNN
+	1    9800 775 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 775  9900 775 
+$Comp
+L power:GND #PWR022
+U 1 1 614EF506
+P 9800 875
+F 0 "#PWR022" H 9800 625 50  0001 C CNN
+F 1 "GND" H 9650 825 50  0000 C CNN
+F 2 "" H 9800 875 50  0001 C CNN
+F 3 "" H 9800 875 50  0001 C CNN
+	1    9800 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 875  9900 875 
+NoConn ~ 9900 975 
+NoConn ~ 9900 1075
+NoConn ~ 9900 1175
+Text GLabel 9900 1375 0    50   Input ~ 0
+LEDGND
+Text GLabel 9900 1475 0    50   Input ~ 0
+col16
+Text GLabel 9900 1575 0    50   Input ~ 0
+col17
+Text GLabel 9900 1675 0    50   Input ~ 0
+col18
+Text GLabel 9900 1775 0    50   Input ~ 0
+col19
+Text GLabel 9900 1875 0    50   Input ~ 0
+row0
+Text GLabel 9900 1975 0    50   Input ~ 0
+row1
+Text GLabel 9900 2075 0    50   Input ~ 0
+row2
+Text GLabel 9900 2175 0    50   Input ~ 0
+row3
+Text GLabel 9900 2275 0    50   Input ~ 0
+row4
 $EndSCHEMATC
