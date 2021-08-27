@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name keyboard_parts)(type Legacy)(uri ${KIPRJMOD}/../lib/keyboard_parts.lib)(options "")(descr ""))
-  (lib (name mx-led)(type Legacy)(uri ${KIPRJMOD}/../lib/mx-led.lib)(options "")(descr ""))
-)
