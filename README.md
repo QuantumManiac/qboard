@@ -1,2 +1,2 @@
 # QBoard
-A custom (almost) full-size mechanical keyboard with detachable numpad
+A custom (almost) full-size mechanical keyboard
