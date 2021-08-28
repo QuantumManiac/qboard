@@ -883,7 +883,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal (layer F.Cu) (tedit 59FED5CB) (tstamp 612B918C)
-    (at 434.65 150.55)
+    (at 434.52 148.325)
     (descr "Through hole angled pin header, 2x08, 2.54mm pitch, 6mm pin length, double rows")
     (tags "Through hole angled pin header THT 2x08 2.54mm double row")
     (path /61297A0F)
