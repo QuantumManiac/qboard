@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/../lib/MX_Only.pretty)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/../lib/keyboard_parts.pretty)(options "")(descr ""))
+  (lib (name silkscreens)(type KiCad)(uri ${KIPRJMOD}/../lib/silkscreens.pretty)(options "")(descr ""))
 )
