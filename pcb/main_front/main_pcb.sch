@@ -518,17 +518,6 @@ F 3 "" H 8100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_DGS Q1
-U 1 1 6130149A
-P 8000 2400
-F 0 "Q1" H 8204 2446 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 8204 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 8200 2500 50  0001 C CNN
-F 3 "~" H 8000 2400 50  0001 C CNN
-	1    8000 2400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 613037B2
 P 7750 2600
@@ -900,4 +889,15 @@ Text GLabel 9900 2175 0    50   Input ~ 0
 row3
 Text GLabel 9900 2275 0    50   Input ~ 0
 row4
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 61352FA9
+P 8000 2400
+F 0 "Q1" H 8204 2446 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 8204 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-262-3_Vertical" H 8200 2500 50  0001 C CNN
+F 3 "~" H 8000 2400 50  0001 C CNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
