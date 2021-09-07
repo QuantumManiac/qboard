@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source X:\Work\Development\qboard\pcb\main_front\main_pcb.sch)
-    (date "2021-09-07 09:28:20")
+    (date "2021-09-07 09:32:57")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2303,7 +2303,7 @@
       (node (ref MX12) (pin 1))
       (node (ref MX66) (pin 1)))
     (net (code 8) (name col11)
-      (node (ref U1) (pin 20))
+      (node (ref U1) (pin 21))
       (node (ref MX82) (pin 1))
       (node (ref MX27) (pin 1))
       (node (ref MX11) (pin 1))
@@ -2554,7 +2554,7 @@
       (node (ref U1) (pin 22))
       (node (ref J3) (pin 6)))
     (net (code 39) (name BOOT)
-      (node (ref U1) (pin 21))
+      (node (ref U1) (pin 20))
       (node (ref SW2) (pin 1)))
     (net (code 40) (name LEDPWM)
       (node (ref U1) (pin 18))

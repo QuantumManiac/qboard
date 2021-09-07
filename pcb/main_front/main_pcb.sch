@@ -807,11 +807,11 @@ Wire Wire Line
 	8075 950  8075 1000
 Text GLabel 6025 4775 2    50   Input ~ 0
 col12
-Text GLabel 6025 5575 2    50   Input ~ 0
+Text GLabel 6025 5675 2    50   Input ~ 0
 col11
 Text GLabel 7675 5650 0    50   Input ~ 0
 BOOT
-Text GLabel 6025 5675 2    50   Input ~ 0
+Text GLabel 6025 5575 2    50   Input ~ 0
 BOOT
 Text GLabel 9900 1275 0    50   Input ~ 0
 NUMLOCK
